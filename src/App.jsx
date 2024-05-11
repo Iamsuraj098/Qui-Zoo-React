@@ -1,8 +1,8 @@
 import React from "react";
-import NavBar from "./component/NavBar"
+import NavBar from "src/component/NavBar.jsx"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Cards from "./component/Cards";
-import Home from "./component/Home";
+import Cards from "src/component/Cards.jsx";
+import Home from "src/component/Home.jsx";
 
 function App() {
   let component = <Home/>;

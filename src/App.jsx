@@ -21,7 +21,6 @@ function App() {
       break;
     case '/India':
       component = <Cards title={"India"} QuizNo={3} image={"India.png"}/>
-      break;
   }
   return (
     <>

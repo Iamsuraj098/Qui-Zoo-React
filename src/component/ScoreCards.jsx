@@ -13,7 +13,7 @@ export default function ScoreCards(props) {
                 <Row className="justify-content-md-center" style={{ border: "none", marginTop: '10%' }}>
                     <Card className="justify-content-md-center text-center" style={{ width: '25rem', }}>
                         <Card.Body style={{ width: '100%' }}>
-                            <Card.Title className="text-decoration-underline fs-3 fw-semibold">Animal Qui-Zoo Result</Card.Title>
+                            <Card.Title className="text-decoration-underline fs-3 fw-semibold">{props.title} Qui-Zoo Result</Card.Title>
                             <Card.Text className="fs-2" >{props.score}/5</Card.Text>
                             <Card.Text className="fs-3" >Keep Practice</Card.Text>
                             <Button style={{ width: '50%' }} variant="primary mt-3" size="lg" onClick={() => { location.reload() }} >Play Again</Button>

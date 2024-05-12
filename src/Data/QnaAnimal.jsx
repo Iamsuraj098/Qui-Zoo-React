@@ -9,6 +9,14 @@ let QnaAnimal = [
             result: 4
         },
         {
+            ques: "Which one not animal?",
+            opt1: "Goat",
+            opt2: "Whale",
+            opt3: "Rat",
+            opt4: "Table",
+            result: 4
+        },
+        {
             ques: "Which is not bird?",
             opt1: "Crow",
             opt2: "Loin",
@@ -42,6 +50,14 @@ let QnaAnimal = [
         }
     ],
     [
+        {
+            ques: "Unit of Time?",
+            opt1: "Kilometer",
+            opt2: "Liter",
+            opt3: "Second",
+            opt4: "Pound",
+            result: 3
+        },
         {
             ques: "Unit of Time?",
             opt1: "Kilometer",
@@ -93,6 +109,14 @@ let QnaAnimal = [
             result: 1
         },
         {
+            ques: "Equation: 2+2*(2*2)?",
+            opt1: "10",
+            opt2: "23",
+            opt3: "16",
+            opt4: "None of the above",
+            result: 1
+        },
+        {
             ques: "Pythagoras formula:",
             opt1: "B2 = H2 + P2",
             opt2: "H2 = P2 + B2",
@@ -126,6 +150,14 @@ let QnaAnimal = [
         }
     ],
     [
+        {
+            ques: "Largest State in India?",
+            opt1: "Uttar Pradesh",
+            opt2: "Madhya Pradesh",
+            opt3: "Rajasthan",
+            opt4: "Maharashtra",
+            result: 3
+        },
         {
             ques: "Largest State in India?",
             opt1: "Uttar Pradesh",
